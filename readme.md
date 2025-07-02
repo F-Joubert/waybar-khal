@@ -22,9 +22,15 @@ min_calendar_display = 1
 
 - Clone waybar-khal.py to whereever you keep your waybar modules e.g.
 `~/.config/waybar/modules/waybar-khal.py`
+- Make `waybar-khal.py` executable:
+
+```bash
+chmod +x ~/.config/waybar/modules/waybar-khal.py
+```
+
 - Add the following to your waybar config
 
-```
+```json
 "custom/khal": {
         "format": "{}",
         "tooltip": true,
@@ -32,7 +38,7 @@ min_calendar_display = 1
         "format-icons": {
             "default": ""
         },
-        #! replace with your waybar-khal.py path
+        //! replace with your waybar-khal.py path
         "exec": "~/.config/waybar/modules/waybar-khal.py",
         "return-type": "json"
     },
