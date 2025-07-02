@@ -15,6 +15,28 @@ Default config:
 min_calendar_display = 1
 ``` 
 
+## Installation
+
+- Clone waybar-khal.py to whereever you keep your waybar modules e.g.
+`~/.config/waybar/modules/waybar-khal.py`
+- Add the following to your waybar config
+
+```
+"custom/khal": {
+        "format": "{}",
+        "tooltip": true,
+        "interval": 60,
+        "format-icons": {
+            "default": ""
+        },
+        #! replace with your waybar-khal.py path
+        "exec": "~/.config/waybar/modules/waybar-khal.py",
+        "return-type": "json"
+    },
+```
+
+- Reload waybar
+
 ## ToDo
 
 - Find a useful way to display any events / tasks on current day
