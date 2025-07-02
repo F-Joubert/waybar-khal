@@ -1,6 +1,9 @@
 # Waybar Khal
 
-Simple waybar module that formats a khal calendar into a tooltip.
+Simple waybar module that formats a [khal](https://github.com/pimutils/khal)
+calendar into a tooltip. Heavy inspiration taken from the
+[Next calendar events](https://gist.github.com/bjesus/178a9bd3453470d74803945dbbf9ed40)
+module.
 
 ![image](https://github.com/user-attachments/assets/02f6adec-2389-4b91-8ca4-6226db19f58b)
 
