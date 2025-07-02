@@ -2,6 +2,8 @@
 
 Simple waybar module that formats a khal calendar into a tooltip.
 
+![image](https://github.com/user-attachments/assets/02f6adec-2389-4b91-8ca4-6226db19f58b)
+
 Default config:
 
 - Events included in the nexy 14 days
